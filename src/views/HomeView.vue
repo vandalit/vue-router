@@ -1,6 +1,10 @@
 <template>
   <!-- <Card /> -->
-   <h1>pinche productos en el nav</h1>
+   <br><br><br><br><br><br>
+   <div class="container text-center" >
+        <h1>pinche productos en el nav</h1>
+
+    </div>
 </template>
 
 <script>
