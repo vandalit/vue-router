@@ -10,13 +10,19 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item active">
-            <a class="nav-link text-light" href="#">Inicio <span class="sr-only">(current)</span></a>
+            <!-- <a class="nav-link text-light" href="#">Inicio <span class="sr-only">(current)</span></a> -->
+            <router-link class="nav-link active" aria-current="page" to="/">Inicio</router-link>
+
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="#">Productos</a>
+            <!-- <a class="nav-link text-light" href="#">Productos</a> -->
+            <router-link class="nav-link" :to="{name:'productos'}">Productos</router-link>
+
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="#">Contacto</a>
+            <!-- <a class="nav-link text-light" href="#">Contacto</a> -->
+            <router-link class="nav-link" :to="{name:'contacto'}">Contacto</router-link>
+
           </li>
         </ul>
       </div>
