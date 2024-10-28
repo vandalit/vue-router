@@ -1,7 +1,7 @@
 <template lang="">
   <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container px-4">
-      <a class="navbar-brand" href="#"><img src="../assets/logo.png" alt="logo de suricata" /></a>
+      <a class="navbar-brand" href="#"><img src="../../assets/logo.png" alt="logo de suricata" /></a>
       <button class="navbar-toggler navbar-dark border-light" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -23,6 +23,12 @@
     </div>
   </nav>
 </template>
+<router-link class="nav-link active" aria-current="page"
+        to="/">Home</router-link>
+        <router-link class="nav-link" :to="{name:
+        'productos'}">Productos</router-link>
+        <router-link class="nav-link" :to="{name:
+        'contacto'}">Contacto</router-link>
 <script>
 export default {
   
